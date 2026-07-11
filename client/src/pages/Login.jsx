@@ -84,6 +84,7 @@ const Login = () => {
                 })}
                 error={errors.email ? errors.email.message : ""}
               />
+              <p>Email: vn@gmail.com</p>
               <Textbox
                 placeholder="your password"
                 type="password"
@@ -95,6 +96,7 @@ const Login = () => {
                 })}
                 error={errors.password ? errors.password.message : ""}
               />
+              <p>Password: 12345678</p>
               <span className="text-sm text-gray-500 hover:text-blue-600 hover:underline cursor-pointer ">
                 Forgot Password?
               </span>
